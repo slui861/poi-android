@@ -1,6 +1,6 @@
 # POI Android
 
-[![Build Status](https://travis-ci.org/SUPERCILEX/poi-android.svg?branch=master)](https://travis-ci.org/SUPERCILEX/poi-android)
+[![Build Status](https://travis-ci.org/slui861/poi-android.svg?branch=master)](https://travis-ci.org/slui861/poi-android)
 
 POIA is a simple library enabling [Apache POI](https://poi.apache.org/) usage on Android.
 
@@ -26,13 +26,13 @@ allprojects {
 And the POIA dependency itself:
 
 ```groovy
-implementation "com.github.SUPERCILEX.poi-android:poi:$poiVersion"
+implementation "com.github.slui861.poi-android:poi:$poiVersion"
 ```
 
 If you're using proguard, also add:
 
 ```groovy
-implementation "com.github.SUPERCILEX.poi-android:proguard:$poiVersion"
+implementation "com.github.slui861.poi-android:proguard:$poiVersion"
 ```
 
 If you want source code and documentation, add the real Apache POI dependency as `compileOnly`:
